@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DanmuTool_Example' do
+  pod 'DanmuTool', :path => '../'
+
+  target 'DanmuTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
