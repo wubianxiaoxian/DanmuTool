@@ -23,7 +23,7 @@ pod "DanmuTool"
 ## Author
 
 wubianxiaoxian, xx@xx.com
-
+![](http://i1.piimg.com/567571/f509de5cad2ed822.gif) 
 ## License
 
 DanmuTool is available under the MIT license. See the LICENSE file for more info.
