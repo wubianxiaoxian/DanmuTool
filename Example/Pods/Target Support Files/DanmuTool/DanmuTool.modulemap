@@ -1,0 +1,6 @@
+framework module DanmuTool {
+  umbrella header "DanmuTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

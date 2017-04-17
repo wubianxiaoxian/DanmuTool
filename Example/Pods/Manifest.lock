@@ -1,0 +1,16 @@
+PODS:
+  - DanmuTool (0.1.0)
+
+DEPENDENCIES:
+  - DanmuTool (from `../`)
+
+EXTERNAL SOURCES:
+  DanmuTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DanmuTool: cbe3f4e0bf8988aaa09588bb9be9545413eee6c1
+
+PODFILE CHECKSUM: 55444e2bf9dc66e218671ca6f42464f7f926153b
+
+COCOAPODS: 1.2.0

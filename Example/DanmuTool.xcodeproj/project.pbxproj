@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		06193ACE3A6E9A38ACAE8C59 /* Pods_DanmuTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAACACC0E6F1CF969B32EEBF /* Pods_DanmuTool_Tests.framework */; };
+		1DAA320F1EA4A0610098F18A /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAA320E1EA4A0610098F18A /* DMHeartFlyView.m */; };
+		1DAA32131EA4A0730098F18A /* SKFDanmuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAA32111EA4A0730098F18A /* SKFDanmuView.m */; };
+		1DAA32141EA4A0730098F18A /* SKFDanmuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DAA32121EA4A0730098F18A /* SKFDanmuView.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		170B8E47996C98B04B8B0BDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		170B8E47996C98B04B8B0BDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1DAA320D1EA4A0610098F18A /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		1DAA320E1EA4A0610098F18A /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		1DAA32101EA4A0730098F18A /* SKFDanmuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFDanmuView.h; sourceTree = "<group>"; };
+		1DAA32111EA4A0730098F18A /* SKFDanmuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFDanmuView.m; sourceTree = "<group>"; };
+		1DAA32121EA4A0730098F18A /* SKFDanmuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKFDanmuView.xib; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DanmuTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanmuTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,8 +72,8 @@
 		9BEB190F30A39B7C29608593 /* Pods-DanmuTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanmuTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanmuTool_Tests/Pods-DanmuTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AAACACC0E6F1CF969B32EEBF /* Pods_DanmuTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanmuTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2BA4628443731CECA4EC2BD /* Pods-DanmuTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanmuTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanmuTool_Example/Pods-DanmuTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E0F10E988856A9DF7947BE64 /* DanmuTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DanmuTool.podspec; path = ../DanmuTool.podspec; sourceTree = "<group>"; };
-		F5AA23848249CB239ABF821B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E0F10E988856A9DF7947BE64 /* DanmuTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DanmuTool.podspec; path = ../DanmuTool.podspec; sourceTree = "<group>"; };
+		F5AA23848249CB239ABF821B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FC104ECA3BD46BE831C46A3F /* Pods-DanmuTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanmuTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanmuTool_Example/Pods-DanmuTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +151,11 @@
 		6003F593195388D20070C39A /* Example for DanmuTool */ = {
 			isa = PBXGroup;
 			children = (
+				1DAA32101EA4A0730098F18A /* SKFDanmuView.h */,
+				1DAA32111EA4A0730098F18A /* SKFDanmuView.m */,
+				1DAA32121EA4A0730098F18A /* SKFDanmuView.xib */,
+				1DAA320D1EA4A0610098F18A /* DMHeartFlyView.h */,
+				1DAA320E1EA4A0610098F18A /* DMHeartFlyView.m */,
 				6003F59C195388D20070C39A /* SKFAppDelegate.h */,
 				6003F59D195388D20070C39A /* SKFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -283,6 +296,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				1DAA32141EA4A0730098F18A /* SKFDanmuView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +410,9 @@
 			files = (
 				6003F59E195388D20070C39A /* SKFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SKFViewController.m in Sources */,
+				1DAA320F1EA4A0610098F18A /* DMHeartFlyView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1DAA32131EA4A0730098F18A /* SKFDanmuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
